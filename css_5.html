@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab</title>
+
+	<style type="text/css">
+		#box{
+			height: 20px;	
+		}
+
+		.round1{
+			height: 10px;
+			width: 10px;
+			border-radius: 10px;
+			background-color: red;
+			position: absolute;
+			top: 4px;
+			left: 10px;
+		}
+		.round2{
+			height: 10px;
+			width: 10px;
+			border-radius: 10px;
+			background-color: yellow;
+			position: absolute;
+			top: 4px;
+			left: 25px;
+		}
+		.round3{
+			height: 10px;
+			width: 10px;
+			border-radius: 10px;
+			background-color: green;
+			position: absolute;
+			top: 4px;
+			left: 40px;
+		}
+
+		.content{
+			color: white;
+			margin-left: 60px;
+			margin-top: 225px;
+		}
+
+		.left{
+			height: 800px;
+			width: 1000px;
+			background-color: black;
+			position: absolute;
+			top: 20px;
+		}
+
+		.right{
+
+			height: 800px;
+			width: 600px;
+			background-color: darkgreen;
+			position: absolute;
+			left: 1000px;
+			top: 20px;
+			
+
+		}
+
+		.account{
+			color: white;
+			font-size: 30px;
+			margin-top: 300px;
+			margin-left: 40px;
+		}
+
+		.email{
+			margin-left: 40px;
+			size: 400px;
+		}
+
+		.password{
+			margin-left: 40px;
+		}
+		.login{
+			margin-left: 40px;
+			background-color: white;
+			color: darkgreen;
+			height: 40px;
+			width: 75px;
+		}
+
+
+
+
+	</style>
+
+</head>
+<body>
+
+	<div id="box"></div>
+	<div class="round1"></div>
+	<div class="round2"></div>
+	<div class="round3"></div>
+
+	<div class="left">
+		<p class="content"><span style="font-size: 45px;">Welcome</span><br><span style="font-size: 20px">Register a free ERC account</span><br><br><br><br>
+			<span>
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+			</span>
+		</p>
+
+		<input style="margin-left: 60px;background-color: darkgreen;color: white; height: 40px; width: 75px"  type="submit" name="Register" value="Register">
+
+
+	</div>
+
+	<div class="right">
+		<p class="account">or login to your account</p>
+		<table>
+			<input class="email" type="email" name="email" placeholder="Your email"><br><br>
+			<input class="password" type="password" name="password" placeholder="password"><br><br>
+			<input class="login" type="submit" name="Login" value="Login">
+			<label style="color: white;margin-left: 45px;">forgot password?</label>
+
+		</table>
+
+
+
+	</div>
+
+
+
+
+</body>
+</html>
